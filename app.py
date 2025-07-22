@@ -37,9 +37,9 @@ def extract_quoted_text(text):
         r'"([^"]+)"',           # Guillemets courbes ouvrants/fermants
         r'«([^»]+)»',           # Guillemets français
         r"'([^']+)'",           # Apostrophes simples
-        r''([^']+)'',           # Apostrophes courbes
+        r"'([^']+)'",           # Apostrophes courbes
         r'„([^"]+)"',           # Guillemets allemands
-        r'‚([^']+)'',           # Guillemets simples allemands
+        r"‚([^']+)'",           # Guillemets simples allemands
     ]
     
     for pattern in patterns:
