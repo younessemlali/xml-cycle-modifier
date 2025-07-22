@@ -33,13 +33,13 @@ def extract_quoted_text(text):
     """
     # Patterns pour différents types de guillemets
     patterns = [
-        r'"([^"]+)"',           # Guillemets droits doubles
-        r'"([^"]+)"',           # Guillemets courbes ouvrants/fermants
-        r'«([^»]+)»',           # Guillemets français
-        r"'([^']+)'",           # Apostrophes simples
-        r"'([^']+)'",           # Apostrophes courbes
-        r'„([^"]+)"',           # Guillemets allemands
-        r"‚([^']+)'",           # Guillemets simples allemands
+        r'"([^"]+)"',                    # Guillemets droits doubles
+        r'"([^"]+)"',                    # Guillemets courbes ouvrants/fermants
+        r'«([^»]+)»',                    # Guillemets français
+        r"'([^']+)'",                    # Apostrophes simples
+        r"'([^']+)'",                    # Apostrophes courbes
+        r'„([^"]+)"',                    # Guillemets allemands
+        r"‚([^']+)'",                    # Guillemets simples allemands
     ]
     
     for pattern in patterns:
